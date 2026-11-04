@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="scholarship CFG" id="scholarship-cfg">
+    <mxGraphModel dx="3540" dy="3960" grid="1" gridSize="10" page="1" pageWidth="3540" pageHeight="3960">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N0" value="N0  Entry" style="rounded=1;whiteSpace=wrap;html=0;fontSize=27;fillColor=#e6f4ef;" vertex="1" parent="1">
+          <mxGeometry x="710.0" y="105.0" width="580" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N1" value="N1  gpa &lt; 0 ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="350.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N2" value="N2  gpa &gt; 4 ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="680.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N3" value="N3  credits &lt; 0 ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="1010.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N4" value="N4  throw IllegalArgumentException" style="rounded=1;whiteSpace=wrap;html=0;fontSize=27;fillColor=#fce9e8;" vertex="1" parent="1">
+          <mxGeometry x="1890.0" y="695.0" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N5" value="N5  hasViolation ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="1340.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N6" value="N6  return 0 (violation)" style="rounded=1;whiteSpace=wrap;html=0;fontSize=27;fillColor=#e6f4ef;" vertex="1" parent="1">
+          <mxGeometry x="1890.0" y="1355.0" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N7" value="N7  gpa &gt;= 3.8 ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="1670.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N8" value="N8  credits &gt;= 15 ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="2000.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N9" value="N9  return 100" style="rounded=1;whiteSpace=wrap;html=0;fontSize=27;fillColor=#e6f4ef;" vertex="1" parent="1">
+          <mxGeometry x="1890.0" y="2015.0" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N10" value="N10  gpa &gt;= 3.4 ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="2330.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N11" value="N11  credits &gt;= 12 ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="2660.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N12" value="N12  return 70" style="rounded=1;whiteSpace=wrap;html=0;fontSize=27;fillColor=#e6f4ef;" vertex="1" parent="1">
+          <mxGeometry x="1890.0" y="2675.0" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N13" value="N13  gpa &gt;= 3.0 ?" style="rhombus;whiteSpace=wrap;html=0;fontSize=27;fillColor=#eaf2fc;" vertex="1" parent="1">
+          <mxGeometry x="750.0" y="2990.0" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N14" value="N14  return 50" style="rounded=1;whiteSpace=wrap;html=0;fontSize=27;fillColor=#e6f4ef;" vertex="1" parent="1">
+          <mxGeometry x="1890.0" y="3005.0" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N15" value="N15  return 0 (low GPA)" style="rounded=1;whiteSpace=wrap;html=0;fontSize=27;fillColor=#e6f4ef;" vertex="1" parent="1">
+          <mxGeometry x="690.0" y="3335.0" width="620" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N16" value="N16  Exit" style="rounded=1;whiteSpace=wrap;html=0;fontSize=27;fillColor=#e6f4ef;" vertex="1" parent="1">
+          <mxGeometry x="1910.0" y="3645.0" width="580" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E01" value="E01&#10;scholarshipHighReturns100" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N0" target="N1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E02" value="E02 T&#10;scholarshipNegativeGpaThrows" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N1" target="N4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E03" value="E03 F&#10;scholarshipHighReturns100" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N1" target="N2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E04" value="E04 T&#10;scholarshipGpaAboveFourThrows" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;" edge="1" parent="1" source="N2" target="N4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E05" value="E05 F&#10;scholarshipHighReturns100" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N2" target="N3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E06" value="E06 T&#10;scholarshipNegativeCreditsThrows" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.5;entryY=1.0;" edge="1" parent="1" source="N3" target="N4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E07" value="E07 F&#10;scholarshipHighReturns100" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N3" target="N5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E08" value="E08&#10;scholarshipNegativeGpaThrows" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=1.0;entryY=0.5;" edge="1" parent="1" source="N4" target="N16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3300" y="760" />
+              <mxPoint x="3300" y="3700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E09" value="E09 T&#10;scholarshipViolationReturnsZero" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;" edge="1" parent="1" source="N5" target="N6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E10" value="E10 F&#10;scholarshipHighReturns100" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N5" target="N7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E11" value="E11&#10;scholarshipViolationReturnsZero" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=1.0;entryY=0.5;" edge="1" parent="1" source="N6" target="N16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3300" y="1420" />
+              <mxPoint x="3300" y="3700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E12" value="E12 T&#10;scholarshipHighReturns100" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N7" target="N8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E13" value="E13 F&#10;scholarshipMiddleReturns70" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.0;exitY=0.5;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N7" target="N10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="1750" />
+              <mxPoint x="80" y="2310" />
+              <mxPoint x="1000" y="2310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E14" value="E14 T&#10;scholarshipHighReturns100" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;" edge="1" parent="1" source="N8" target="N9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E15" value="E15 F&#10;scholarshipHighLowCreditsReturns70" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N8" target="N10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E16" value="E16&#10;scholarshipHighReturns100" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=1.0;entryY=0.5;" edge="1" parent="1" source="N9" target="N16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3300" y="2080" />
+              <mxPoint x="3300" y="3700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E17" value="E17 T&#10;scholarshipMiddleReturns70" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N10" target="N11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E18" value="E18 F&#10;scholarshipBasicReturns50" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.0;exitY=0.5;entryX=0.0;entryY=0.5;" edge="1" parent="1" source="N10" target="N13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="2410" />
+              <mxPoint x="180" y="3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E19" value="E19 T&#10;scholarshipMiddleReturns70" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;" edge="1" parent="1" source="N11" target="N12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E20" value="E20 F&#10;scholarshipMiddleLowCreditsReturns50" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N11" target="N13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E21" value="E21&#10;scholarshipMiddleReturns70" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=1.0;entryY=0.5;" edge="1" parent="1" source="N12" target="N16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3300" y="2740" />
+              <mxPoint x="3300" y="3700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E22" value="E22 T&#10;scholarshipBasicReturns50" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;" edge="1" parent="1" source="N13" target="N14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E23" value="E23 F&#10;scholarshipLowGpaReturnsZero" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N13" target="N15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E24" value="E24&#10;scholarshipBasicReturns50" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=1.0;entryY=0.5;" edge="1" parent="1" source="N14" target="N16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3300" y="3070" />
+              <mxPoint x="3300" y="3700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E25" value="E25&#10;scholarshipLowGpaReturnsZero" style="edgeStyle=none;rounded=0;html=0;endArrow=block;fontSize=23;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.5;entryY=0.0;" edge="1" parent="1" source="N15" target="N16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2200" y="3400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
